@@ -96,10 +96,10 @@
 
         layer_2 {
             bindings = <
-&kp EXCLAMATION  &kp DOUBLE_QUOTES  &kp HASH        &kp DOLLAR      &kp PERCENT                               &kp AMPERSAND  &kp SQT    &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp PIPE
-&kp LC(A)        &kp LC(S)          &kp LANGUAGE_2  &kp LANGUAGE_1  &kp LANGUAGE_5  &none     &kp UNDERSCORE  &kp MINUS      &kp LCTRL  &kp AT_SIGN           &kp LEFT_BRACKET       &kp RIGHT_BRACKET
-&kp LC(Z)        &kp LC(X)          &kp LC(C)       &kp LC(V)       &trans          &trans    &trans          &kp EQUAL      &kp TILDE  &kp GRAVE             &kp LEFT_BRACE         &kp RIGHT_BRACE
-&trans           &trans             &trans          &trans          &trans          &trans    &trans          &trans                                                                 &kp PIPE
+&kp EXCLAMATION  &kp DOUBLE_QUOTES  &kp HASH        &kp DOLLAR      &kp PERCENT                               &kp AMPS      &kp APOS    &kp LPAR   &kp RPAR        &kp PIPE2
+&kp LC(A)        &kp LC(S)          &kp LANGUAGE_2  &kp LANGUAGE_1  &kp LANGUAGE_5  &none     &kp UNDERSCORE  &kp KP_MINUS  &kp CARET   &kp AT     &kp LBKT        &kp RBKT
+&kp LC(Z)        &kp LC(X)          &kp LC(C)       &kp LC(V)       &trans          &trans    &trans          &kp KP_EQUAL  &kp TILDE2  &kp GRAVE  &kp LEFT_BRACE  &kp RIGHT_BRACE
+&trans           &trans             &trans          &trans          &trans          &trans    &trans          &trans                                               &kp PIPE
             >;
 
             sensor-bindings = <&inc_dec_kp BACKSPACE DELETE>;
