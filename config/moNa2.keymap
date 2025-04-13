@@ -74,8 +74,8 @@
 
         default_layer {
             bindings = <
-&mt ESCAPE Q      &kp W         &kp E    &kp R        &kp T                                         &kp Y  &kp U  &kp I      &kp O    &lt 5 P
-&lt 2 A           &lt 6 S       &kp D    &kp S        &kp G      &trans              &kp BACKSPACE  &kp H  &kp J  &kp K      &kp L    &kp SEMICOLON
+&mt ESCAPE Q      &kp W         &kp E    &kp R        &kp T                                         &kp Y  &kp U  &kp I      &kp O    &lt 4 P
+&lt 2 A           &kp S         &kp D    &kp S        &kp G      &trans              &kp BACKSPACE  &kp H  &kp J  &kp K      &kp L    &kp SEMICOLON
 &mt LEFT_SHIFT Z  &kp X         &kp C    &kp V        &kp B      &kp SINGLE_QUOTE    &kp DELETE     &kp N  &kp M  &kp COMMA  &kp DOT  &kp SLASH
 &kp LCTRL         &kp LEFT_WIN  &kp TAB  &lt 1 SPACE  &mkp LCLK  &mkp RCLK           &kp ENTER      &mo 3                             &mkp MCLK
             >;
@@ -116,32 +116,12 @@
             sensor-bindings = <&scroll_up_down>;
         };
 
-        temp_layer {
-            bindings = <
-&trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans                          &trans
-            >;
-        };
-
         bluetooth {
             bindings = <
 &trans        &trans        &trans        &trans        &trans                            &trans  &trans  &trans  &trans  &trans
 &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans
 &trans        &trans        &trans        &trans        &trans  &bt BT_CLR_ALL    &trans  &trans  &trans  &trans  &trans  &trans
 &trans        &trans        &trans        &trans        &trans  &trans            &trans  &trans                          &trans
-            >;
-
-            sensor-bindings = <&scroll_up_down>;
-        };
-
-        MOUSE {
-            bindings = <
-&trans  &trans  &trans  &trans    &trans                          &trans    &trans    &trans    &trans    &trans
-&trans  &trans  &trans  &trans    &trans    &trans      &trans    &trans    &mkp MB1  &mkp MB2  &mkp MB3  &trans
-&trans  &trans  &trans  &trans    &trans    &trans      &trans    &trans    &trans    &trans    &trans    &trans
-&trans  &trans  &trans  &mkp MB1  &mkp MB2  &mkp MB3    &mkp MB4  &mkp MB5                                &trans
             >;
 
             sensor-bindings = <&scroll_up_down>;
