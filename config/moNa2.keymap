@@ -33,7 +33,7 @@
 
         shift {
             bindings = <&kp LEFT_SHIFT>;
-            key-positions = <37 41 37>;
+            key-positions = <37 37 40>;
         };
 
         middle {
